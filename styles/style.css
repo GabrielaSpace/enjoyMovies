@@ -1,0 +1,13 @@
+body{
+    background-color: beige;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+div img{
+    border-radius: 10px;
+    width: 380px;
+    height: auto;
+}
