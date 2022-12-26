@@ -27,11 +27,12 @@ const showMov = async()=>{
             <h3 class='title'>${movie.title}</h3>`;
         });
         document.querySelector('#content').innerHTML = movies;
-    } else if(resp.status === 401){ 
-    console.log('coloca un id correcto'); 
+    } else if(resp.status === 401){
+    console.log('coloca un id correcto');
 } else if(resp.status === 404){
      console.log('La pelicula que buscas no existe');
     }}
-   catch(error){console.log(error); }
+   catch(error){console.log(error);
+}
 }
 showMov()
